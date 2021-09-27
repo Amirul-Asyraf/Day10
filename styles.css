@@ -41,7 +41,7 @@
     top: 0;
     background-repeat: repeat-x;
     background-size: contain;
-    top: 503px;
+    top: 539px;
 }
 
 #layerOne {
@@ -122,5 +122,5 @@
     background-image: url(day10_challenge/img/sky.png);
     z-index: 6;
     top: -407px;
-    background-size: 100% 480px;
+    background-size: 100% 539px;
 }
