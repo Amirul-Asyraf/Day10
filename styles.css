@@ -41,7 +41,7 @@
     top: 0;
     background-repeat: repeat-x;
     background-size: contain;
-    top: 756px;
+    top: 503px;
 }
 
 #layerOne {
@@ -76,7 +76,7 @@
 
 #levelOne, #levelTwo, #levelThree, #levelFour, #levelFive {
     width: 1000px;
-    height: 115%;
+    height: 122%;
     position: absolute;
     left: 0;
     top: 0;
@@ -122,5 +122,5 @@
     background-image: url(day10_challenge/img/sky.png);
     z-index: 6;
     top: -407px;
-    background-size: 100% 792px;
+    background-size: 100% 480px;
 }
