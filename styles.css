@@ -1,0 +1,126 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+#container {
+    width: 1000px;
+    height: 400%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+#sectionOne {
+    background: linear-gradient(to top, #ff9933 0%, #ff99cc 100%);
+    /* background: linear-gradient(to top, #ff9933 0%, #003366 100%); */
+}
+
+.section:nth-child(3) {
+    background-color: pink;
+}
+
+#progress-bar {
+    width: 0;
+    height: 10px;
+    background-color: rgb(255,51,102);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#layerOne, #layerTwo, #layerThree, #layerFour, #layerFive, #layerSix {
+    width: 1250px;
+    height: 9%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-repeat: repeat-x;
+    background-size: contain;
+    top: 756px;
+}
+
+#layerOne {
+    background-image: url(day10_challenge/images/layer_6.png);
+    z-index: 10;
+}
+
+#layerTwo  {
+    background-image: url(day10_challenge/images/layer_5.png);
+    z-index: 9;
+}
+
+#layerThree {
+    background-image: url(day10_challenge/images/layer_4.png);
+    z-index: 8;
+}
+
+#layerFour  {
+    background-image: url(day10_challenge/images/layer_3.png);
+    z-index: 7;
+}
+
+#layerFive {
+    background-image: url(day10_challenge/images/layer_2.png);
+    z-index: 6;
+}
+
+#layerSix {
+    background-image: url(day10_challenge/images/layer_1.png);
+    z-index: 5;
+}
+
+#levelOne, #levelTwo, #levelThree, #levelFour, #levelFive {
+    width: 1000px;
+    height: 115%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+}
+
+
+#levelOne {
+    background-image: url(day10_challenge/img/person.png);
+    z-index: 10;
+    background-size: 400px;
+    top: -271px;
+    left: 300px;
+}
+
+#levelTwo  {
+    background-image: url(day10_challenge/img/mountain1.png);
+    z-index: 9;
+    top: -271px;
+    left: -1px;
+    background-size: 998px;
+}
+
+#levelThree {
+    background-image: url(day10_challenge/img/mountain2.png);
+    z-index: 8;
+    top: -267px;
+    background-size: 814px;
+}
+
+#levelFour  {
+    background-image: url(day10_challenge/img/mountain3.png);
+    z-index: 7;
+    background-size: 510px;
+    top: -466px;
+    left: 488px;
+    position: absolute;
+}
+
+#levelFive {
+    background-image: url(day10_challenge/img/sky.png);
+    z-index: 6;
+    top: -407px;
+    background-size: 100% 792px;
+}

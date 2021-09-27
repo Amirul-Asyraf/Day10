@@ -1,0 +1,45 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+#container {
+    width: 512px;
+    height: 512px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#layerOne, #layerTwo, #layerThree {
+    width: 1000px;
+    height: 512px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-repeat: repeat;
+}
+
+#layerOne {
+    background-image: url(images/landscape_layer_1.png);
+    z-index: 10;
+}
+
+#layerTwo  {
+    background-image: url(images/landscape_layer_2.png);
+    top: -50px;
+    z-index: 9;
+}
+
+#layerThree {
+    background-image: url(images/landscape_layer_3.png);
+    top: -80px;
+    z-index: 8;
+}
+
+#onion {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 50px;
+    height: 50px;
+}
